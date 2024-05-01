@@ -1,3 +1,6 @@
+#link to dataset
+#https://www.kaggle.com/datasets/charunisa/chatgpt-sentiment-analysis
+
 # -*- coding: utf-8 -*-
 """Untitled14.ipynb
 
@@ -52,7 +55,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM,Dense, Dropout, SpatialDropout1D
 from tensorflow.keras.layers import Embedding
 
-vocab_size = ...
+vocab_size = ... #issue for vocab_size
 embedding_vector_length = 32
 model = Sequential()
 model.add(Embedding(vocab_size, embedding_vector_length, input_length=200))
